@@ -90,11 +90,14 @@ while(isRunning == True):
         print("")
         print("="*50)
     elif(inputPengguna == 4):
-        exit()
+        print("")
+        print("Thank you for using this application! :D")
+        break
 
-    lanjut = input("Ingin mencari data lain? (Y/N) : ")
-    if (lanjut == "N" or lanjut == "n"):
-        exit()
+    lanjut = input("Ingin mencari data lain? (Y/N) : ").upper()
+    if (lanjut == "N"):
+        print("")
+        print("Thank you for using this application! :D")
+        break
     else :
         continue
-
